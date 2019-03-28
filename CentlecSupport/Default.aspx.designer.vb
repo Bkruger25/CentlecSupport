@@ -12,4 +12,85 @@ Option Explicit On
 
 
 Partial Public Class _Default
+    
+    '''<summary>
+    '''lblResult control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblResult As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''txtname control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtname As Global.System.Web.UI.HtmlControls.HtmlInputText
+    
+    '''<summary>
+    '''txtsname control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtsname As Global.System.Web.UI.HtmlControls.HtmlInputText
+    
+    '''<summary>
+    '''department control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents department As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
+    '''CaP control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents CaP As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
+    '''retail control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents retail As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
+    '''Wires control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Wires As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
+    '''txtcomment control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtcomment As Global.System.Web.UI.HtmlControls.HtmlTextArea
+    
+    '''<summary>
+    '''btnSubmit control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnSubmit As Global.System.Web.UI.WebControls.Button
 End Class
