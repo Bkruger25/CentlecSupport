@@ -40,7 +40,7 @@ Public Class _Default
         'set the server
         Dim smtp As New SmtpClient("webmail.giscoe.com")
         'smtp.EnableSsl = True
-        smtp.Credentials = New System.Net.NetworkCredential("bkruger", "R3guRk8")
+        smtp.Credentials = New System.Net.NetworkCredential("", "")
         smtp.Port = "25"
 
         'send the message
